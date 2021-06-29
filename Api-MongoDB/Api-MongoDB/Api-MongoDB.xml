@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api-MongoDB</name>
+    </assembly>
+    <members>
+        <member name="M:Api_MongoDB.Controllers.InfectadoController.SalvarInfectado(Api_MongoDB.Models.InfectadoDto)">
+            <summary>
+            Este serviço permite salvar dados de um infectado pela covid-19.
+            </summary>
+            <param name="InfectadoDto"></param>
+            <returns>Retorna 201 e dados do infectado salvo</returns>
+        </member>
+        <member name="M:Api_MongoDB.Controllers.InfectadoController.ObterInfectados">
+            <summary>
+            Este serviço permite obter dados de um infectado pela covid-19.
+            </summary>        
+            <returns>Retorna 200 e lista de dados dos infectados salvos</returns>
+        </member>
+        <member name="M:Api_MongoDB.Controllers.InfectadoController.ObterInfectado(System.String)">
+            <summary>
+            Este serviço permite obter dados de um infectado pela covid-19.
+            </summary>
+            <param name="id"></param>
+            <returns>Retorna 200 e dados do infectado salvo</returns>
+        </member>
+        <member name="M:Api_MongoDB.Controllers.InfectadoController.AtualizarInfectado(System.String,Api_MongoDB.Models.InfectadoDto)">
+            <summary>
+            Este serviço permite atulizar dados de um infectado pela covid-19.
+            </summary>
+            <param name="id"></param>
+            <returns>Retorna 204 </returns>
+        </member>
+        <member name="M:Api_MongoDB.Controllers.InfectadoController.ExcluirInfectado(System.String)">
+            <summary>
+            Este serviço permite excluir dados de um infectado pela covid-19.
+            </summary>
+            <param name="id"></param>
+            <returns>Retorna 204 </returns>
+        </member>
+    </members>
+</doc>
